@@ -1,0 +1,109 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+p, h1, button {
+  margin-top: 20%;
+  line-height: 30px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 300;
+  line-height: 1.7em;
+  font-size: 15px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5% 15% 5% 15%;
+}
+
+.card .naranja {
+  border-radius: 8px 0px 0px 8px;
+  padding: 5%;
+  background-color: #e38826;
+}
+
+.card .naranja button {
+  color: #e38826;
+}
+
+.card .naranja button:hover {
+  color: white;
+}
+
+.card .marina {
+  padding: 5%;
+  background-color: #006970;
+}
+
+.card .marina button {
+  color: #006970;
+}
+
+.card .marina button:hover {
+  color: white;
+}
+
+.card .esmeralda {
+  border-radius: 0px 8px 8px 0px;
+  padding: 5%;
+  background-color: #004241;
+}
+
+.card .esmeralda button {
+  color: #004241;
+}
+
+.card .esmeralda button:hover {
+  color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card .naranja {
+    border-radius: 8px 8px 0px 0px;
+  }
+  .card .esmeralda {
+    border-radius: 0px 0px 8px 8px;
+  }
+  p, h1, button {
+    margin-top: 10%;
+    line-height: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

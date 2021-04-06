@@ -1,0 +1,77 @@
+@import "../baserules/variables";
+    p,h1,button {
+        margin-top: 20%;
+        line-height: 30px;
+    }
+    p{
+        color:rgba(255, 255, 255, 0.75);
+        font-weight: 300;
+        line-height: 1.7em;
+        font-size: 15px;
+    }
+    button {
+        width: 120px;
+        height: 50px;
+        background-color: white;
+        border-style: solid;
+        border-radius: 25px;
+        display: inline-block; 
+    }
+    button:hover {
+        background-color: rgba(255, 255, 255, 0);
+        color:white;
+    }
+    .card {
+        display: flex;
+        margin: 5% 15% 5% 15%;
+        .naranja {
+            border-radius: 8px 0px 0px 8px;
+            padding: 5%;
+            background-color: $naranja;
+            button {
+                color: $naranja;
+            }
+            button:hover {
+                color:white;
+            }
+        }
+        .marina {
+            padding: 5%;
+            background-color: $marina;
+            button {
+                color: $marina;
+            }  
+            button:hover {
+                color:white;
+            }
+        }
+        .esmeralda {
+            border-radius: 0px 8px 8px 0px;
+            padding: 5%;
+            background-color: $esmeralda;
+            button {
+                color: $esmeralda;
+            }   
+            button:hover {
+                color:white;
+            }
+        }
+    }
+    @media screen and (max-width: 960px) {  
+        .card {
+            flex-direction: column;
+            .naranja {
+                border-radius: 8px 8px 0px 0px;
+            }
+            .esmeralda {
+                border-radius: 0px 0px 8px 8px;
+            }
+        }
+        p,h1,button {
+            margin-top: 10%;
+            line-height: 30px;
+        }
+    }
+
+
+    
